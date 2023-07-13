@@ -1,0 +1,6 @@
+@charset "UTF-8";
+
+.icon-activity:before { content: '\e801'; } /* '' */
+.icon-filter:before { content: '\e802'; } /* '' */
+.icon-graph:before { content: '\e803'; } /* '' */
+.icon-setting:before { content: '򖋨'; } /* '\962e8' */

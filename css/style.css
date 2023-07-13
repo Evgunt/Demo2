@@ -1,0 +1,483 @@
+@font-face {
+    font-family: 'fontello';
+    src: url('../font/fontello.eot?67124353');
+    src: url('../font/fontello.eot?67124353#iefix') format('embedded-opentype'),
+    url('../font/fontello.woff?67124353') format('woff'),
+    url('../font/fontello.ttf?67124353') format('truetype'),
+    url('../font/fontello.svg?67124353#fontello') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+*
+{
+    padding: 0;
+    margin: 0;
+    outline: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+.center
+{
+    width: 1400px;
+    margin: 0 auto;
+}
+.slider
+{
+    background-color: #CBECFF;
+    padding: 24px 165px 40px;
+    position: relative;
+}
+.icons
+{
+    text-align: left;
+    display: flex;
+    justify-content: flex-end;
+    cursor: pointer;
+}
+.icons span
+{
+    font-size: 14px;
+    font-weight: 400;
+    margin-right: 15px;
+    padding: 5px;
+}
+.icon_active
+{
+    border-radius: 50%;
+    background-color: #FFF;
+    color: #0962E8;
+}
+.about
+{
+    display: flex;
+    justify-content: space-between;
+}
+.title
+{
+    font-size: 64px;
+    font-weight: 700;
+    text-align: left;
+    color: #29374E;
+}
+.title span
+{
+    color: #0962E8;
+    background: #fff;
+    border-radius: 20px;
+    padding: 5px 20px;
+}
+.about_text
+{
+    margin-top: 80px;
+    color: #1E2837;
+}
+.about_text_under
+{
+    font-size: 22px;
+    font-weight: 400;
+    margin-top: 15px;
+    width: 335px;
+    overflow: hidden;
+}
+.about_button
+{
+    margin-top: 50px;
+    background-color: #0962E8;
+    color: #fff;
+    padding: 15px 0;
+    width: 200px;
+    text-align: center;
+    border-radius: 12px;
+    cursor: pointer;
+}
+.about_button:active
+{
+    background-color: #307ded;
+}
+.advantages
+{
+    display: flex;
+    width: 1024px;
+    position: absolute;
+    bottom: -30px;
+    left: 50%;
+    margin-left: -512px;
+}
+.advantages_item
+{
+    box-shadow: 6px 4px 12px 0 #0000000D;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 20px;
+    margin-right: 20px;
+    width: 241px;
+    display: flex;
+    justify-content: space-between;
+}
+.advantages_item:nth-last-child(1)
+{
+    margin-right: 0;
+}
+.advantages_item__text
+{
+    font-size: 16px;
+    font-weight: 500;
+    width: 150px;
+    overflow: hidden;
+    color: #1E2837;
+}
+.advantages_item__icon {
+    font-family: "fontello", serif;
+    font-style: normal;
+    font-weight: normal;
+    speak: never;
+
+    display: inline-block;
+    text-decoration: inherit;
+    width: 35px;
+    height: 35px;
+    margin-right: .2em;
+    text-align: center;
+    background-color: #EFF9FF;
+    border-radius: 50%;
+    color: #0962E8;
+    line-height: 35px;
+}
+.product
+{
+    padding: 150px 165px 80px;
+}
+.product_title
+{
+    font-size: 38px;
+    font-weight: 500;
+    text-align: center;
+    color: #29374E;
+}
+.product_title span
+{
+    color: #0962E8;
+}
+.product_items
+{
+    margin: 40px 0 60px;
+    display: flex;
+}
+.product_item
+{
+    width: 502px;
+    background-color: #E9F6FF;
+    border-radius: 30px;
+    margin-right: 20px;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 30px 0;
+}
+.product_item__img
+{
+    width: 218px;
+    border-radius: 30px 30px 0;
+    overflow: hidden;
+}
+.product_item__text
+{
+    width: 210px;
+    overflow: hidden;
+}
+.product_item__title
+{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+.product_item__underTitle{
+    font-size: 14px;
+    font-weight: 400;
+}
+.value
+{
+    padding:  0 150px 30px;
+    display: flex;
+    justify-content: space-between;
+}
+.value_text
+{
+    width: 465px;
+}
+.value_text__title
+{
+    font-size: 38px;
+    font-weight: 500;
+    color: #1E2837;
+}
+.value_text__title span
+{
+    color: #0962E8;
+}
+.value_text__under
+{
+    color: #1E2837;
+    font-size: 14px;
+    font-weight: 500;
+    margin-top: 20px;
+
+}
+.value_items
+{
+    display: flex;
+    flex-wrap: wrap;
+    width: 540px;
+}
+.value_item
+{
+    width: 230px;
+    margin-right: 20px;
+    box-shadow: 6px 4px 12px 0 #0000000D;
+    border-radius: 20px;
+}
+.value_item:nth-child(2n)
+{
+    margin-right: 0;
+}
+.mobile
+{
+    display: none;
+}
+.desktop
+{
+    display: block;
+}
+.mobile_end
+{
+    display: none;
+}
+@media screen and (max-width: 1430px)
+{
+    .center
+    {
+        width: 1200px;
+    }
+    .product
+    {
+        padding: 150px 100px 80px;
+    }
+}
+@media screen and (max-width: 1230px)
+{
+    .center
+    {
+        width: 1000px;
+    }
+    .phone_img
+    {
+        width: 455px;
+    }
+    .advantages
+    {
+        position: relative;
+        margin: 0 auto;
+        flex-wrap: wrap;
+        bottom: 0;
+        left: 0;
+        width: 522px;
+    }
+    .advantages_item
+    {
+        margin-bottom: 15px;
+    }
+    .product_items
+    {
+        flex-wrap: wrap;
+        width: 522px;
+        margin: 30px auto;
+    }
+    .product_item
+    {
+        margin-bottom: 20px;
+    }
+    .value
+    {
+        display: block;
+    }
+    .value_text
+    {
+        text-align: center;
+        width: auto;
+    }
+    .about_button
+    {
+        margin: 35px auto 50px;
+    }
+    .value_items
+    {
+        margin: 0 auto;
+    }
+    .value_item
+    {
+        margin-bottom: 30px;
+    }
+
+}
+@media screen and (max-width: 1035px)
+{
+    .center
+    {
+        width: 800px;
+    }
+    .mobile
+    {
+        display: block;
+    }
+    .desktop
+    {
+        display: none;
+    }
+    .about
+    {
+        display: block;
+    }
+    .phone_img
+    {
+        margin-top: 30px;
+    }
+    .product
+    {
+        padding: 55px 100px 10px;
+    }
+    .about_button
+    {
+        margin: 35px auto 50px;
+    }
+    .product_title, .value_text__title
+    {
+        font-size: 31px;
+    }
+}
+@media screen and (max-width: 835px)
+{
+    .center
+    {
+        width: 600px;
+    }
+    .slider
+    {
+        padding: 24px 50px 40px;
+    }
+    .value
+    {
+        padding: 0 65px 30px;
+    }
+    .product
+    {
+        padding: 55px 25px 10px;
+    }
+    .product_title, .value_text__title
+    {
+        font-size: 28px;
+    }
+}
+
+@media screen and (max-width: 630px)
+{
+    .center
+    {
+        width: 400px;
+    }
+    .phone_img
+    {
+        width: 310px;
+    }
+    .about_button
+    {
+        width: auto;
+    }
+    .slider
+    {
+         padding: 24px 15px 40px;
+     }
+    .desktop_end
+    {
+        display: none;
+    }
+    .mobile_end
+    {
+        display: block;
+    }
+    .advantages_item
+    {
+        width: 175px;
+        display: block;
+    }
+    .advantages_item__text
+    {
+        width: auto;
+    }
+    .product_item__text
+    {
+        width: auto;
+    }
+    .product_item
+    {
+        width: 362px;
+        padding: 15px 30px 0;
+    }
+    .value
+    {
+        padding: 0 0 30px;
+    }
+    .value_items
+    {
+        width: 400px;
+    }
+    .value_item
+    {
+        width: 190px;
+    }
+    .product_items
+    {
+        width: 380px;
+    }
+    .advantages
+    {
+        width: 390px;
+    }
+}
+@media screen and (max-width: 430px)
+{
+    .center
+    {
+        width: 350px;
+    }
+    .advantages_item
+    {
+        width: 145px;
+    }
+    .advantages
+    {
+        width: 330px;
+    }
+    .advantages_item__text
+    {
+        font-size: 12px;
+    }
+    .value_item
+    {
+        width: 165px;
+    }
+    .value_items
+    {
+        width: 350px;
+    }
+    .product_items
+    {
+        width: 300px;
+        margin: 20px 0 0;
+    }
+    .product_item
+    {
+        width: 335px;
+    }
+    .product {
+        padding: 55px 0 10px;
+    }
+}
